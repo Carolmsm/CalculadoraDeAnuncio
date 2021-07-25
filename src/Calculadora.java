@@ -6,8 +6,8 @@ public class Calculadora {
 
         Calculadora visual = new Calculadora();
 
-        System.out.println(visual.projecaoVisualizacao(250, 10000));
-        System.out.println(visual.projecaoCompart(49));
+        System.out.println(visual.projecaoVisualizacao(499, 10000));
+        System.out.println(visual.projecaoCompart(80));
 
 
     }
@@ -41,7 +41,7 @@ public class Calculadora {
                 System.out.println(this.totalCliques);
                 //System.out.println("i:" + i);
 
-            } else if(this.quantVisual >= (i + 99) || this.quantVisual <= (i + 99) ){
+            } else if( this.quantVisual <= (i + 99) ){
 
                 int div = quantVisual/ 100;
                 this.totalCliques = div * cClique;
@@ -69,7 +69,7 @@ public class Calculadora {
                 d = totalCliquesC / 20;
                 this.compart = d * cComp;
 
-            }else if(this.tolatlCliquesC == x && this.tolatlCliquesC != 20){
+            }else if(this.tolatlCliquesC == x ){
 
                 dCliques = totalCliquesC / 2;
                 d = dCliques /10 ;
