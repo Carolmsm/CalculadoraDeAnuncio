@@ -7,7 +7,7 @@ public class Calculadora {
         Calculadora visual = new Calculadora();
 
         System.out.println(visual.projecaoVisualizacao(499, 10000));
-        System.out.println(visual.projecaoCompart(121));
+        System.out.println(visual.projecaoCompart(400));
 
 
     }
@@ -80,10 +80,10 @@ public class Calculadora {
                 this.restDTCliques = this.tolatlCliquesC % 20;
                 if (restDTCliques != 0){
 
-                    dCliques = totalCliquesC / 2;
-                    d = dCliques /10 ;
+                    dCliques = totalCliquesC / 20;
+                    //d = dCliques /10 ;
 
-                    this.compart = d * cComp;
+                    this.compart = dCliques * cComp;
                 }
             }
 
