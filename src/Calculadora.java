@@ -72,7 +72,7 @@ public class Calculadora {
             }else if(this.tolatlCliquesC == x ){
 
                 dCliques = totalCliquesC / 20;
-                //d = dCliques /10 ;
+
 
                 this.compart = dCliques * cComp;
 
@@ -81,7 +81,7 @@ public class Calculadora {
                 if (restDTCliques != 0){
 
                     dCliques = totalCliquesC / 20;
-                    //d = dCliques /10 ;
+
 
                     this.compart = dCliques * cComp;
                 }
